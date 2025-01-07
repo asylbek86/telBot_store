@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: app.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "app.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python Debugger: Python File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}"
+        }
+    ]
+}
